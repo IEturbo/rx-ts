@@ -1,0 +1,40 @@
+{
+  "name": "rxjs-demo",
+  "version": "1.0.0",
+  "description": "rxjs,typescript+webpack build project",
+  "main": "build/main.js",
+  "module": "out/main.js",
+  "files": [
+    "build",
+    "dist",
+    "src",
+    "out",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development",
+    "buildG": "tsc && webpack --mode=none"
+  },
+  "keywords": [
+    "rxjs-demo",
+    "typestipt",
+    "webpack"
+  ],
+  "author": "Bing<ghb918@live.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.138",
+    "@types/rx": "^4.1.1",
+    "path": "^0.12.7",
+    "rxjs": "^6.5.3",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.4",
+    "lodash": "^4.17.15"
+  }
+}

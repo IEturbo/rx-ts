@@ -1,0 +1,6 @@
+node_modules/
+.Ds_store
+dist/
+*.html
+*.config.js
+src/
