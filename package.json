@@ -28,10 +28,10 @@
     "@types/rx": "^4.1.1",
     "path": "^0.12.7",
     "rxjs": "^6.5.3",
-    "ts-loader": "^6.0.4",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.6.2",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "@types/node": "^12.7.4",
